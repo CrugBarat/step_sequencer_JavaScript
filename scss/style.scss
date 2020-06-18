@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: #202020;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.title {
+  font-size: 55px;
+  padding: 0;
+  margin: 0px 0px 40px 0px;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:50px;
+    height:50px;
+    background-color: #202020;
+    border-radius:5px;
+    border:2px solid white;
+    margin: 1px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.row1:checked {
+    background: #1be7ff;
+}
+
+.row2:checked {
+    background: #16E6CC;
+}
+
+.row3:checked {
+    background: #2EF9A0;
+}
+
+.row4:checked {
+    background: #67FF6C;
+}
+
+.row5:checked {
+    background: #E7C501;
+}
+
+.row6:checked {
+    background: #FF6A63;
+}
+
+.row7:checked {
+    background: #E830CE;
+}
+
+.row8:checked {
+    background: #9201ff;
+}
