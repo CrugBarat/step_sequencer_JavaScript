@@ -22,10 +22,10 @@ let index = 0;
 function repeat(time) {
   let step = index % 8;
   for (let i = 0; i < rows.length; i++) {
-    let synth = synths[i],
-        note = notes[i],
-        row = rows[i],
-        input = row.querySelector(`input:nth-child(${step + 1})`);
+    let synth = synths[i];
+    let note = notes[i];
+    let row = rows[i];
+    let input = row.querySelector(`input:nth-child(${step + 1})`);
     if (input.checked) synth.triggerAttackRelease(note, '8n', time);
   }
   index++;
